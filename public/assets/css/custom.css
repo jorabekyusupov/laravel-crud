@@ -1,0 +1,5 @@
+/* your styles go here */
+td, th
+{
+    vertical-align: center !important;
+}
