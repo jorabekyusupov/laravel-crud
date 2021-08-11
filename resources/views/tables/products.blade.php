@@ -23,7 +23,7 @@
                         <tr class="">
                             <th scope="row">{{$item->id}}</th>
                             <td >{{$item->title}}</td>
-                            <td ><img style="width: 30px; height: 30px;"  src="{{{ asset('assets/image/products/'.$item->image) }}}" alt=""></td>
+                            <td ><img style="width: 30px; height: 30px;"  src="{{ asset('public/assets/image/products/'.$item->image) }}" alt=""></td>
 
                             <td>  <div class="badge badge-success badge-shadow">{{$item->category->name }}</div></td>
                             <td>{{$number = number_format($item->price, '1') }} So'm</td>
