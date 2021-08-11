@@ -26,7 +26,7 @@
                             <td ><img style="width: 30px; height: 30px;"  src="{{{ asset('assets/image/products/'.$item->image) }}}" alt=""></td>
 
                             <td>  <div class="badge badge-success badge-shadow">{{$item->category->name }}</div></td>
-                            <td>{{$number = number_format($item->price, '1', '.') }} So'm</td>
+                            <td>{{$number = number_format($item->price, '1') }} So'm</td>
                             <td>
                                 <a href="{{route('pr.show',['id'=>$item->id])}}" class="btn btn-primary">View</a>
                                 <a href="{{route('pr.edit',['id'=>$item->id])}}" class="btn btn-secondary">Edit</a>

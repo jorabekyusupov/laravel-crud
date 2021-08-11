@@ -6,7 +6,7 @@
             <div class="card-body">
                 <h4 class="card-title">{{$product->title}}</h4>
                 <p class="card-text">{{$product->about}}</p>
-                <span>{{$number = number_format($product->price, '1', '.') }} So'm</span>
+                <span>{{$number = number_format($product->price, '1') }} So'm</span>
                 <br>
                 <br>
 
