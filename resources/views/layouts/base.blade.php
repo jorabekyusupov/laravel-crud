@@ -8,19 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="{{ asset('public/assets/vendor/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ secure_asset('public/assets/vendor/bootstrap/css/bootstrap.min.css')}}">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="{{asset('public/assets/vendor/font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('public/assets/vendor/font-awesome/css/font-awesome.min.css')}}">
     <!-- Custom Font Icons CSS-->
-    <link rel="stylesheet" href="{{asset('public/assets/css/font.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('public/assets/css/font.css')}}">
     <!-- Google fonts - Muli-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="{{asset('public/assets/css/style.default.css')}}" id="theme-stylesheet">
+    <link rel="stylesheet" href="{{secure_asset('public/assets/css/style.default.css')}}" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="{{asset('public/assets/css/custom.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('public/assets/css/custom.css')}}">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="{{asset('public/assets/img/favicon.ico')}}">
+    <link rel="shortcut icon" href="{{secure_asset('public/assets/img/favicon.ico')}}">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -64,7 +64,7 @@
       <nav id="sidebar">
         <!-- Sidebar Header-->
         <div class="sidebar-header d-flex align-items-center">
-          <div class="avatar"><img src="{{asset('public/assets/img/avatar-6.jpg')}}" alt="..." class="img-fluid rounded-circle"></div>
+          <div class="avatar"><img src="{{secure_asset('public/assets/img/avatar-6.jpg')}}" alt="..." class="img-fluid rounded-circle"></div>
           <div class="title">
             <h1 class="h5">Mark Stephen</h1>
             <p>Web Designer</p>
@@ -101,13 +101,13 @@
       </div>
     </div>
     <!-- JavaScript files-->
-    <script src="{{asset('public/assets/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('public/assets/vendor/popper.js/umd/popper.min.js')}}"> </script>
-    <script src="{{asset('public/assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('public/assets/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
-    <script src="{{asset('public/assets/vendor/chart.js/Chart.min.js')}}"></script>
-    <script src="{{asset('public/assets/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
-    <script src="{{asset('public/assets/js/charts-home.js')}}"></script>
-    <script src="{{asset('public/assets/js/front.js')}}"></script>
+    <script src="{{secure_asset('public/assets/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{secure_asset('public/assets/vendor/popper.js/umd/popper.min.js')}}"> </script>
+    <script src="{{secure_asset('public/assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{secure_asset('public/assets/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
+    <script src="{{secure_asset('public/assets/vendor/chart.js/Chart.min.js')}}"></script>
+    <script src="{{secure_asset('public/assets/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
+    <script src="{{secure_asset('public/assets/js/charts-home.js')}}"></script>
+    <script src="{{secure_asset('public/assets/js/front.js')}}"></script>
   </body>
 </html>
